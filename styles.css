@@ -1,0 +1,117 @@
+/* .input-group-prepend {
+  justify-content: center;
+  width: 120px;
+} */
+.form-control {
+  width: 350px;
+}
+#submit-btn {
+  margin-top: 25px;
+}
+/* .box {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  border: 1px solid black; 
+  border-radius: 5px;
+} */
+
+.error-icon {
+  display: none;
+}
+
+.info-icon {
+  cursor: pointer;
+  transition: 3s;
+  position: relative;
+  top: 12px;
+  right: 25px;
+}
+
+.input {
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+.message {
+  display: none;
+}
+
+.info-icon:hover .message {
+  display: block;
+  transition: 3s;
+}
+
+.q-message {
+  display: none;
+}
+
+.question-info {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.question-info:hover .q-message {
+  display: block;
+  transition: 3s;
+}
+
+.q-message {
+  position: relative;
+  width: auto;
+  background: white;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  left: 25px;
+  padding: 10px;
+  z-index: 1;
+}
+
+#grossIncomeError,
+#extraIncomeError,
+#deductionsError {
+  display: none;
+  transition: 3s;
+}
+.box {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  border: 1px solid black; /* Adjust border size as needed */
+  border-radius: 5px;
+}
+
+.error-icon {
+  font-size: small;
+  color: red;
+  margin-left: 10px;
+}
+
+span.message {
+  position: absolute;
+  width: 150px;
+  background: white;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  left: 25px;
+  padding: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+select {
+  background-position: right 0.7em top 50%, 0 0 !important;
+}
